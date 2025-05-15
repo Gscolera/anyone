@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Koulen";
+  src: url("/fonts/Koulen-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-light-gray: #cfcadf;
+  --color-primary: #3d06d7;
+  --color-primary-light: #906fee;
+  --color-dark: #1e0e4c;
+
+  /* typography */
+  --text-body-reg: 18px;
+  --text-body-reg--font-weight: 400;
+  --text-body-reg--letter-spacing: 0px;
+
+  --text-body-med: 18px;
+  --text-body-med--font-weight: 500;
+  --text-body-med--letter-spacing: 0px;
+
+  --text-caption: 16px;
+  --text-caption--font-weight: 400;
+  --text-caption--letter-spacing: 2%;
+
+  /* fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-koulen: "Koulen", sans-serif;
+
+  /* spacing */
+  --spacing-xs: 4px;
+  --spacing-md: 12px;
+}

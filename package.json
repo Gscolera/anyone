@@ -1,0 +1,35 @@
+{
+  "name": "anyone-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.2.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.7.0",
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@tailwindcss/vite": "^4.1.6",
+    "@types/node": "^22.15.18",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "globals": "^16.1.0",
+    "path": "^0.12.7",
+    "tailwindcss": "^4.1.6",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.32.1",
+    "url": "^0.11.4",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
